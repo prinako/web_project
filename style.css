@@ -1,0 +1,15 @@
+ body{
+     background-color: rgb(176, 243, 217);
+ }
+
+ h1{
+     color: rgb(148, 86, 206);
+     margin-left: 40px;
+     font-style: italic;
+     border: whitesmoke;
+ }
+
+ p{
+     color: yellowgreen;
+     font-size: 30px;
+ }
