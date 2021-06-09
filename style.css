@@ -6,10 +6,11 @@
  }
 
  #tcenter{
-     background-color: rgb(35, 99, 19);
+     background-color: rgb(3, 25, 73);
      text-align: center;
-     border: solid rgb(35, 99, 19);
+     border: solid rgb(3, 25, 73);
      border-radius: 10px;
+     color: white;
 
  }
 
@@ -39,24 +40,32 @@ h2 a:hover{
     color: rgba(30, 102, 33, 0.712);
 }
 
-#tvideos{
+#videos-ul{
     background-color: rgb(189, 196, 193);
     border: solid rgb(3, 24, 63);
     border-radius: 5px;
+    float: left;
     padding: 25px;
 }
-#tvideos1{
+#videos-li{
+    float: left;
     background-color: rgb(189, 196, 193);
     border: solid rgb(3, 24, 63);
     border-radius: 7px;
     padding: 25px;
       
 }
-h2{
+#videos-text{
+    background-color: rgb(189, 196, 193);
+    border: solid rgb(3, 24, 63);
+    border-radius: 7px;
+    padding: 5px;
+}
+#header-center2{
     text-align: center;
 }
 
-ul{
+#ul1{
     list-style: none;
     margin: 16;
     padding: 16;
@@ -65,7 +74,7 @@ ul{
     border-radius: 5px;
     
 }
-li{
+#li1{
     float: left;
 }
 li a {
@@ -83,10 +92,16 @@ li a:hover{
     color: rgb(13, 15, 14);
 }
 #news-img{
-    padding-left: 200px;
-    padding-right: 100px;
-    
+    float: left;
+    width: 390px;
+    padding-right: 10px;
+    padding-bottom: 10px; 
 }
-p{
+#img-position{
+    width: 200px;
+    float: left;
+    color: aquamarine;
+}
+#p{
     font-size: 20px;
 }
