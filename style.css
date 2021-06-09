@@ -30,6 +30,7 @@
     margin-left: 20px;
     margin-right: 20px;
     padding: 25px;
+   
 }
 h2 a{
     text-decoration: none;
@@ -101,7 +102,19 @@ li a:hover{
     width: 200px;
     float: left;
     color: aquamarine;
+    text-decoration: none;
 }
 #p{
     font-size: 20px;
+}
+#p-home{
+    font-size: 20px;
+}
+#news-page1{
+    border: solid rgb(13, 9, 78);
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgb(189, 196, 193);
+    margin: 35px;
+    float: none;
 }
