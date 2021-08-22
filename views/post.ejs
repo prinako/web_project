@@ -1,0 +1,16 @@
+<%-include("partials/navbar") %>
+<div class="container">
+    <div class="title">
+        <h2>
+            <%=article.title%> 
+        </h2>
+    </div>
+    <div class="container-fluid">
+        <div class="new-wrap">
+            <div class="image-wrap">
+                <img class="news-img" src="data:<%=article.photos.imageType%>;base64,<%=article.photos.imageBase%>" alt="OnePlus photo"><br>
+            </div>
+            <p><%=article.content%></p>
+        </div>
+    </div>
+</div>
