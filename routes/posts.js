@@ -40,7 +40,6 @@ router.route("/")
 router.get('/:id', async (req, res)=>{
     const _id =req.params.id;
     const findArticle = await News.findById({_id:_id});
-    console.log(findArticle)
     res.render('post', {title:'News', article: findArticle});
 } )
 module.exports = router;
