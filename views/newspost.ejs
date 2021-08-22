@@ -1,0 +1,17 @@
+<%- include('partials/navbar') %>
+
+<div class="container">
+
+    <form class="form-wrapper" action="/post" method="POST" enctype="multipart/form-data">
+
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title" class="" required>
+        <label for="content">Content</label>
+        <textarea name="content" id="content" cols="30" rows="15" required></textarea>
+        <label for="file">Phots</label>
+        <input type="file" name="content-image" accept="image/*" id="file" class="file" required>
+        <div>
+            <button type="submit">submite</button>
+        </div>
+    </form>
+</div>

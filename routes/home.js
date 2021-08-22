@@ -1,9 +1,11 @@
 const express = require ('express');
 const router = express.Router();
+const {News} = require('../databases/schema');
 
 
-router.get('/', (req, res) =>{
-    res.render('index', {title:'Home'});
+router.get('/', async(req, res) =>{
+    const articles = await News.find();
+    res.render('index', {title:'Home', articles});
 })
 
 router.get('/about', (req, res) =>{
@@ -14,8 +16,9 @@ router.get('/videos', (req, res) =>{
     res.render('videos', {title:'Vidoes'});
 })
 
-router.get('/news', (req, res) =>{
-    res.render('news', {title:'News'});
+router.get('/news', async(req, res) =>{
+    const articles = await News.find();
+    res.render('news', {title:'News', articles});
 })
 
 router.get('/secrityUpdate', (req, res) =>{
